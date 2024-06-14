@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recurso Educativo - Pensamiento Crítico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Desarrolla tu Pensamiento Crítico</h1>
+        <nav>
+            <ul>
+                <li><a href="#textos">Textos</a></li>
+                <li><a href="#cuestionarios">Cuestionarios</a></li>
+                <li><a href="#actividades">Actividades</a></li>
+                <li><a href="#guias">Guías de Apoyo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="textos">
+        <h2>Textos para Leer</h2>
+        <article>
+            <h3>Texto 1: La importancia del pensamiento crítico</h3>
+            <img src="imagen1.jpg" alt="Imagen alusiva al texto 1">
+            <p>La capacidad de pensar críticamente es crucial en nuestra sociedad...</p>
+            <button onclick="mostrarCuestionario('cuestionario1')">Ir al cuestionario</button>
+        </article>
+        <!-- Más textos se pueden añadir aquí -->
+    </section>
+
+    <section id="cuestionarios">
+        <h2>Cuestionarios</h2>
+        <div id="cuestionario1" class="cuestionario">
+            <h3>Cuestionario sobre el Texto 1</h3>
+            <form>
+                <label>Pregunta 1: ¿Qué es el pensamiento crítico?</label><br>
+                <input type="radio" name="q1" value="1"> Una habilidad para pensar profundamente<br>
+                <input type="radio" name="q1" value="0"> Un conocimiento superficial<br><br>
+
+                <label>Pregunta 2: ¿Por qué es importante?</label><br>
+                <input type="radio" name="q2" value="1"> Para tomar decisiones informadas<br>
+                <input type="radio" name="q2" value="0"> Para seguir las opiniones de otros<br><br>
+
+                <button type="button" onclick="calcularPuntos('cuestionario1')">Enviar</button>
+            </form>
+        </div>
+        <!-- Más cuestionarios se pueden añadir aquí -->
+    </section>
+
+    <section id="actividades">
+        <h2>Actividades Didácticas</h2>
+        <!-- Ejemplo de sopa de letras -->
+        <div class="sopa-de-letras">
+            <h3>Sopa de Letras: Conceptos Clave</h3>
+            <table>
+                <tr>
+                    <td>P</td><td>E</td><td>N</td><td>S</td><td>A</td>
+                </tr>
+                <tr>
+                    <td>C</td><td>R</td><td>I</td><td>T</td><td>I</td>
+                </tr>
+                <tr>
+                    <td>I</td><td>C</td><td>A</td><td>L</td><td>O</td>
+                </tr>
+                <tr>
+                    <td>J</td><td>U</td><td>I</td><td>C</td><td>O</td>
+                </tr>
+                <tr>
+                    <td>D</td><td>O</td><td>C</td><td>E</td><td>N</td>
+                </tr>
+            </table>
+        </div>
+        <!-- Más actividades se pueden añadir aquí -->
+    </section>
+
+    <section id="guias">
+        <h2>Guías de Apoyo</h2>
+        <article>
+            <h3>Estrategias de Lectura Crítica</h3>
+            <p>Para desarrollar el pensamiento crítico es esencial practicar la lectura de manera activa...</p>
+        </article>
+        <!-- Más guías se pueden añadir aquí -->
+    </section>
+
+    <footer>
+        <p>© 2024 Recurso Educativo Digital</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
